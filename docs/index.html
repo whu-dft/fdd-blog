@@ -41,7 +41,7 @@
         window.$docsify = {
             // name: 'Machine-Learning-Wiki',
             name: '',
-            repo: 'https://github.com/jianzhnie/machine-learning-wiki',
+            repo: 'https://github.com/whu-dft/AI4S_Notes',
             homepage: 'README.md',
             //自动跳转到页面顶部
             auto2top: true,
@@ -184,7 +184,7 @@
                                 .replace('@master', '/blob/master');
                         } else {
                             url =
-                                'https://github.com/jianzhnie/machine-learning-wiki/blob/main/docs/' +
+                                'https://github.com/whu-dft/AI4S_Notes/blob/main/docs/' +
                                 vm.route.file;
                         }
                         var editHtml = '[:memo: Edit on Github](' + url + ')\n';
@@ -267,9 +267,9 @@
         const gitalk = new Gitalk({
             clientID: '2f03a17c37f95f44eed3',
             clientSecret: 'bbf486199b370b5312fd0295835fbde6e1361835',
-            repo: 'machine-learning-wiki',
-            owner: 'jianzhnie',
-            admin: ['jianzhnie'],
+            repo: 'AI4S_Notes',
+            owner: 'whu-dft',
+            admin: ['whu-dft'],
             title: location.hash.match(/#(.*?)([?]|$)/)[1], // 这个是设置 issue 对应的标题
             id: location.hash.match(/#(.*?)([?]|$)/)[1],
             // facebook-like distraction free mode
