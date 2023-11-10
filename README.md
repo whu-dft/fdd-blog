@@ -1,15 +1,9 @@
-# Machine Learning Wiki
+# Welcome to fdd's blog
 
-> 专注于机器学习相关领域的知识汇总，技术收集，笔记记录.
+> fdd的工作笔记，包括工具使用，论文解读，笔记整理等
 
-- 🔥 [机器学习](machine-learning)
-- 🚀 [深度学习](deeplearning/)
-- 👑 [强化学习](deep-rl/)
-- 🦖 [计算机视觉](deeplearning/)
-- 💎 [自然语言处理](deeplearning/)
-- 🐍 [Python编程](python-handbook/)
+- 🔥 [图神经网络](GNN)
 - 🧰 [工具集合](tools/)
 - 🤗 [emojixd.com](https://emojixd.com/)
--  [FermiNet](FermiNet)
 
-[Getting Started](https://jianzhnie.github.io/machine-learning-wiki/)
+[Getting Started](https://whu-dft.github.io/fdd-blog/)
