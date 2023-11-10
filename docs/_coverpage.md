@@ -20,7 +20,7 @@
 - 🐍 [Python编程](python-handbook/)
 - 🧰 [工具集合](tools/)
 - 🤗 [emojixd.com](https://emojixd.com/)
-- [FermiNet](./FermiNet.md)
+-  [FermiNet](FermiNet)
 
 [GitHub](https://github.com/jianzhnie/machine-learning-wiki)
 [Getting Started](deep-rl/)
