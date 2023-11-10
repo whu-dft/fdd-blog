@@ -1,28 +1,19 @@
 ![logo](_media/icon.svg)
 
-# Machine Learning Wiki
+# Welcome to fdd's blog space
 
-> 欢迎来到 Machine Learning Wiki，这是由 Robin 所维护的 blog site ，
+> 欢迎来到fdd的博客空间，这是由 fdd 所维护的 blog site (非常感谢[Robin](https://github.com/jianzhnie)提供的docsify模板),
 >
-> 博客主要记录一些机器学习、深度学习，编程以及各种技术的相关内容。
+> 博客主要记录一些工作笔记、论文解读，工具使用，编程以及各种计算机技术的相关内容。
 
 > 你可以通过顶部和侧边的导航栏找到自己感兴趣的内容，也可以进行搜索。
 >
 > 博客基于 GithubPages 创建，如果你发现有任何错误，欢迎在 Github 上进行编辑纠正。
 
-
-
-- 🔥 [机器学习](FermiNet/)
-- 🚀 [深度学习](deeplearning/)
-- 👑 [强化学习](deep-rl/)
-- 🦖 [计算机视觉](deeplearning/)
-- 💎 [自然语言处理](deeplearning/)
-- 🐍 [Python编程](python-handbook/)
+- 🔥 [图神经网络](GNN)
 - 🧰 [工具集合](tools/)
 - 🤗 [emojixd.com](https://emojixd.com/)
--  [FermiNet](FermiNet)
 
-[GitHub](https://github.com/jianzhnie/machine-learning-wiki)
-[Getting Started](deep-rl/)
+[GitHub](https://github.com/whu-dft/fdd-blog)
 
 
