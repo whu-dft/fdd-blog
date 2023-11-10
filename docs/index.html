@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Robin's Home Page</title>
+    <title>fdd's Home Page</title>
     <link rel="icon" href="_media/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="google-site-verification" content="6t0LoIeFksrjF4c9sqUEsVXiQNxLp2hgoqo0KryT-sE" />
-    <meta name="description" content="机器学习wiki,主要收集机器学习相关的算法，技术文档，笔记等">
+    <meta name="description" content="fdd的博客空间,主要收集工作笔记、论文解读，工具使用，编程以及各种计算机技术">
     <meta name="keywords" content="机器学习 技术文档 读书笔记 专题学习" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue" />
@@ -41,7 +41,7 @@
         window.$docsify = {
             // name: 'Machine-Learning-Wiki',
             name: '',
-            repo: 'https://github.com/whu-dft/AI4S_Notes',
+            repo: 'https://github.com/whu-dft/fdd-blog',
             homepage: 'README.md',
             //自动跳转到页面顶部
             auto2top: true,
@@ -184,7 +184,7 @@
                                 .replace('@master', '/blob/master');
                         } else {
                             url =
-                                'https://github.com/whu-dft/AI4S_Notes/blob/main/docs/' +
+                                'https://github.com/whu-dft/fdd-blog/blob/main/docs/' +
                                 vm.route.file;
                         }
                         var editHtml = '[:memo: Edit on Github](' + url + ')\n';
@@ -267,7 +267,7 @@
         const gitalk = new Gitalk({
             clientID: '2f03a17c37f95f44eed3',
             clientSecret: 'bbf486199b370b5312fd0295835fbde6e1361835',
-            repo: 'AI4S_Notes',
+            repo: 'fdd-blog',
             owner: 'whu-dft',
             admin: ['whu-dft'],
             title: location.hash.match(/#(.*?)([?]|$)/)[1], // 这个是设置 issue 对应的标题
