@@ -10,7 +10,7 @@
 >
 > 博客基于 GithubPages 创建，如果你发现有任何错误，欢迎在 Github 上进行编辑纠正。
 
-- 🔥 [图神经网络](GNN)
+- 🔥 [图神经网络](GNN/)
 - 🧰 [工具集合](tools/)
 - 🤗 [emojixd.com](https://emojixd.com/)
 
