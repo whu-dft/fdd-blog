@@ -1,3 +1,3 @@
 # 图神经网络
 
-- [eSCN](eSCN.md)
+- [eSCN](GNN/eSCN.md)
