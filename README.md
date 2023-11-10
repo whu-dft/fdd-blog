@@ -10,5 +10,6 @@
 - 🐍 [Python编程](python-handbook/)
 - 🧰 [工具集合](tools/)
 - 🤗 [emojixd.com](https://emojixd.com/)
+-  [FermiNet](FermiNet)
 
 [Getting Started](https://jianzhnie.github.io/machine-learning-wiki/)
