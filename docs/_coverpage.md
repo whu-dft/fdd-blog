@@ -23,3 +23,5 @@
 
 [GitHub](https://github.com/jianzhnie/machine-learning-wiki)
 [Getting Started](deep-rl/)
+
+[FermiNet](./FermiNet)
