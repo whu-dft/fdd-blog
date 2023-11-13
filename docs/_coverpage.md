@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](_media/avtar.jpg)
 
 # Welcome to fdd's blog space
 
