@@ -142,13 +142,13 @@ $$
 
 综上，CG系数规律可以用下面的关系式来表示:
 
-\[
+$$
 \left(\mathbf{c}_{l_{i}, l_{f}, l_{o}}\right)_{m}=\left\{\begin{array}{ll}
 \mathbf{C}_{\left(l_{i}, m\right),\left(l_{f}, 0\right)}^{\left(l_{o}, m\right)} & \text { if } m>0 \\
 \mathbf{C}_{\left(l_{i}, 0\right),\left(l_{f}, 0\right)}^{\left(l_{i}, 0\right)} & \text { if } m=0 \\
 \mathbf{C}_{\left(l_{i}, m\right),-,\left(l_{f}, 0\right)}^{\left(l_{o},-m\right)} & \text { if } m<0
 \end{array}\right.    \tag{12}
-\]
+$$
 
 更进一步，公式(10)右边化简为：
 
@@ -160,7 +160,7 @@ $$
 
 对于$m_o > 0$:
 
-\[
+$$
 \left(\begin{array}{c}
 \left(\mathbf{w}_{s t, l_{i}}^{\left(l_{o}\right)}\right)_{m_{o}} \\
 \left(\mathbf{w}_{s t, l_{i}}^{\left(l_{o}\right)}\right)_{-m_{o}}
@@ -171,17 +171,17 @@ $$
 \left(\tilde{\mathbf{x}}_{s}^{\left(l_{i}\right)}\right)_{m_{o}} \\
 \left(\tilde{\mathbf{x}}_{s}^{\left(l_{i}\right)}\right)_{-m_{o}}  \tag{13.5}
 \end{array}\right)  
-\]
+$$
 
 对于 $m_{o}=0$ :
-\[
+$$
 \left(\mathbf{w}_{s t, l_{i}}^{\left(l_{o}\right)}\right)_{0}=\tilde{\mathbf{h}}_{0}^{\left(l_{i}, l_{o}\right)}\left(\tilde{\mathbf{x}}_{s}^{\left(l_{i}\right)}\right)_{0}  \tag{14}
-\]
+$$
 
 $\tilde{\mathbf{h}}^{\left(l_{i}, l_{o}\right)}$ 定义如下:
-\[
+$$
 \tilde{\mathbf{h}}_{m}^{\left(l_{i}, l_{o}\right)}=\sum_{l_{f}}\left(\mathbf{h}_{l_{i}, l_{f}, l_{o}}\left(\mathbf{c}_{l_{i}, l_{f}, l_{o}}\right)_{m}\right)   \tag{15}
-\]
+$$
 
 系数$\tilde{\mathbf{h}}^{\left(l_{i}, l_{o}\right)}$ 与$\bold{h}_{l_i, l_f, l_o}$是线性双射关系，因此可以直接对$\tilde{\mathbf{h}}^{\left(l_{i}, l_{o}\right)}$进行参数化而不损失或增加任何信息。个人理解，也就是说在编码实现中，如果将$\bold{h}_{l_i, l_f, l_o}$ 当做神经网络中待优化的变量，可以直接用$\tilde{\mathbf{h}}^{\left(l_{i}, l_{o}\right)}$来替代$\bold{h}_{l_i, l_f, l_o}$。
 
