@@ -285,7 +285,7 @@ eSCN模型的结构基本与SCN相同，但是用等变的方法替换了原来�
 + (3) 一个球面上的非线性操作；
 
 <div style="text-align:center;">
-  <img src="./pics/消息传递.png" style="width:100%;">
+  <img src="./GNN/pics/消息传递.png" style="width:100%;">
 </div>
 
 上面的左图是消息传递的架构，右图是SO(2)卷积模块的计算分解图($L=3(个人修改，原始为4), C=4, M=2$)。
