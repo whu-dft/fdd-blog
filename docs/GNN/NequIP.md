@@ -301,261 +301,261 @@ self.tp的计算方式可能是先计算input1和input2的tensor product，然�
 
 ### OneHotAtomEncoding - IO
 
-irreps_in: None
-irreps_out:
-    + **node_attrs: 2x0e**
-    + **node_features: 2x0e**
++ irreps_in: None
++ irreps_out:
+  + **node_attrs: 2x0e**
+  + **node_features: 2x0e**
 
 ### SphericalHarmonicEdgeAttrs - IO
 
-irreps_in:
-    + **pos: 1x1o**
-    + **edge_index: None**
-    + node_attrs: 2x0e
-    + node_features: 2x0e
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 2x0e
-    + node_features: 2x0e
-    + **edge_attrs: 1x0e+1x1o**
++ irreps_in:
+  + **pos: 1x1o**
+  + **edge_index: None**
+  + node_attrs: 2x0e
+  + node_features: 2x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 2x0e
+  + node_features: 2x0e
+  + **edge_attrs: 1x0e+1x1o**
 
 ### RadialBasisEdgeEncoding - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 2x0e
-    + node_features: 2x0e
-    + **edge_attrs: 1x0e+1x1o**
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 2x0e
+  + node_features: 2x0e
+  + **edge_attrs: 1x0e+1x1o**
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 2x0e
-    + node_features: 2x0e
-    + edge_attrs: 1x0e+1x1o
-    + **edge_embedding: 8x0e**
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 2x0e
+  + node_features: 2x0e
+  + edge_attrs: 1x0e+1x1o
+  + **edge_embedding: 8x0e**
 
 ### AtomwiseLinear1 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 2x0e
-    + node_features: 2x0e
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 2x0e
+  + node_features: 2x0e
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + **node_attrs: 32x0e**
-    + node_features: 2x0e
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + **node_attrs: 32x0e**
+  + node_features: 2x0e
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 ### ConvNetLayer1 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + **node_attrs: 32x0e**
-    + node_features: 2x0e
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + **node_attrs: 32x0e**
+  + node_features: 2x0e
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 #### InteractionBlock1 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + node_features: 32x0e
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + node_features: 32x0e
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 64x0e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 64x0e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 ### ConvNetLayer2 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x1e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x1e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 #### InteractionBlock2 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 96x0e+32x1o+32x1e**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 96x0e+32x1o+32x1e**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 ### ConvNetLayer3 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x1e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x1e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x0o+32x1e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x0o+32x1e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 #### InteractionBlock3 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x1e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x1e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0o+96x0e+32x1o+32x1e**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0o+96x0e+32x1o+32x1e**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 ### ConvNetLayer4 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x0o+32x1e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x0o+32x1e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x0o+32x1e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x0o+32x1e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 #### InteractionBlock4 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0e+32x0o+32x1e+32x1o**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0e+32x0o+32x1e+32x1o**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0o+96x0e+32x1o+32x1e**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0o+96x0e+32x1o+32x1e**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 ### AtomwiseLinear2 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 32x0o+96x0e+32x1o+32x1e**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 32x0o+96x0e+32x1o+32x1e**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 16x0e**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 16x0e**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
 ### AtomwiseLinear3 - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + **node_features: 16x0e**
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + **node_features: 16x0e**
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + node_features: 16x0e
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
-    + **atomic_energy: 1x0e**
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + node_features: 16x0e
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
+  + **atomic_energy: 1x0e**
 
 ### AtomwiseReduce - IO
 
-irreps_in:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + node_features: 16x0e
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
-    + **atomic_energy: 1x0e**
++ irreps_in:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + node_features: 16x0e
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
+  + **atomic_energy: 1x0e**
 
-irreps_out:
-    + pos: 1x1o
-    + edge_index: None
-    + node_attrs: 32x0e
-    + node_features: 16x0e
-    + edge_attrs: 1x0e+1x1o
-    + edge_embedding: 8x0e
-    + atomic_energy: 1x0e
-    + **total_energy: 1x0e**
++ irreps_out:
+  + pos: 1x1o
+  + edge_index: None
+  + node_attrs: 32x0e
+  + node_features: 16x0e
+  + edge_attrs: 1x0e+1x1o
+  + edge_embedding: 8x0e
+  + atomic_energy: 1x0e
+  + **total_energy: 1x0e**
 
 ## ConvNetLayer中几何张量的变化
 
